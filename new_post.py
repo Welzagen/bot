@@ -1,5 +1,5 @@
 import time
-
+import random
 import instaloader
 from pyrogram import Client
 
@@ -51,4 +51,4 @@ with Client("my_acc", API_ID, API_HASH) as app:
             send_message(last_post)
             posts_.append(last_post)
 
-        time.sleep(8000)
+        time.sleep(randit(6000,8000))
