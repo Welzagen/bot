@@ -51,4 +51,4 @@ with Client("my_acc", API_ID, API_HASH) as app:
             send_message(last_post)
             posts_.append(last_post)
 
-        time.sleep(randit(6000,8000))
+        time.sleep(random.randint(6000,8000))
